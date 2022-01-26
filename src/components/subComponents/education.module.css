@@ -1,0 +1,74 @@
+.education {
+  width: 60%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  color: white;
+  /* left: 20%; */
+  border: ridge;
+  transform: translateX(150%);
+  animation-name: popEduIn;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+@keyframes popEduIn {
+  from {
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.seeCertificateBtn {
+  position: relative;
+  text-align: center;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: ridge;
+  border-radius: 3em;
+  left: 35%;
+}
+
+.seeCertificateText {
+  position: relative;
+  /* top: 1em; */
+}
+
+.seeCertificateBtn:hover {
+  transform: scale(1.2);
+  border: ridge yellowgreen;
+  color: yellowgreen;
+  cursor: pointer;
+}
+
+.educationTitle {
+  color: yellowgreen;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  align-items: center;
+  left: -15%;
+  width: 130%;
+  height: 35rem;
+  top: -10%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.closeOverlayBtn {
+  position: relative;
+  float: right;
+  right: 10%;
+  top: 5%;
+  z-index: 5;
+  font-weight: bolder;
+  transition: 0.4s;
+}
+
+.closeOverlayBtn:hover {
+  color: yellowgreen;
+  background-color: rgb(129, 129, 129);
+  transform: scale(1.2);
+}

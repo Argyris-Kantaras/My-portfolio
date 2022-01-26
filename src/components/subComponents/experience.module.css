@@ -1,0 +1,24 @@
+.experience {
+  width: 60%;
+  height: auto;
+  color: white;
+  position: relative;
+  top: 5em;
+  left: 20%;
+  border: ridge;
+  animation-name: popExperIn;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  transform: translateX(-150%);
+}
+@keyframes popExperIn {
+  from {
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.experienceTitle {
+  color: yellowgreen;
+}
