@@ -33,6 +33,11 @@ function App() {
         })} */}
         <MyLatestWork
           img={landpage}
+          text="A web app made in Reactjs, CSS!"
+          link="https://movies-shelf.netlify.app/"
+        />
+        <MyLatestWork
+          img={landpage}
           text="A beautiful landing page made in react!"
           link="https://photogun.netlify.app/"
         />
