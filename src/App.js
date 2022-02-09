@@ -10,6 +10,7 @@ import linkedInLogo from "./icons/linkedin-logo.png";
 import githubLogo from "./icons/github-logo.png";
 import facebookLogo from "./icons/facebook-logo.png";
 import netlifyLogo from "./icons/netlify-logo.png";
+import moviesShelf from "./icons/movies-shelf.png";
 
 const images = [landpage, landpage, landpage, landpage];
 
@@ -32,7 +33,7 @@ function App() {
           );
         })} */}
         <MyLatestWork
-          img={landpage}
+          img={moviesShelf}
           text="A web app made in Reactjs, CSS!"
           link="https://movies-shelf.netlify.app/"
         />
